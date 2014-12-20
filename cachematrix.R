@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## This function creates a cached matrix solution, analogous to the example given in the assignment page.
 
 makeCacheMatrix <- function(x = matrix()) {
   
@@ -31,7 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function checks to see if a cached copy of the matrix exists, and if it doesn't, solves the matrix and stores it in the cache.
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
